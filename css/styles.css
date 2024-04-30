@@ -50,7 +50,8 @@ h1 {
   background-color: #f0a503;
   padding: 30px 50px 60px 50px;
   border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px
+  border-bottom-right-radius: 5px;
+  box-shadow: 3px 3px red, -1em 0 04em olive;
 }
 
 .contact-container  hr {
