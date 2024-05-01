@@ -1,86 +1,82 @@
 body {
   font-family: sans-serif;
-  font-size: 1.1rem;
-  Padding: 50px;
 }
 
-.details {
-  width: 600px;
+header > div {
+  position: absolute;
+  background-color: #742a81;
+  width: 100%;
+  top: 0;
+  text-align: center;
 }
 
+div > img {
+  height: 150px;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+.summary-container > h2 {
+  text-align: center;
+
+}
+
+.right-section hr {
+  color: 4px red;
+  background-color: red;
+}
 
 h1 {
-  text-align: center;
-  font-weight: 800;
-  font-size: 3em;
-
-
+  font-size: 3rem;
+  color: #fff;
 }
 
-.profile-container, .history-container {
+h2 {
+  color: red;
+}
+
+main {
+  margin-top: 7em;
+}
+
+.grid {
   display: flex;
-  align-items: center;
-
-
 }
 
-.profile-container > img {
-  width: 10%;
-  object-fit: cover;
-  border-radius: 90px;
-  margin-right: 40px;
+.left-section {
+  width: 400px;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e6d8e9;
 }
 
-.history-container {
-  justify-content: space-between;
-}
 
-.bold {
-  font-weight: 700;
-}
-
-.left-align {
-  border-left: 1px solid #dadae6;
-  padding-left: 5px;
-  margin-left: 5px;
-}
-
-.contact-container {
-  width: 800px;
-  height: 300px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  margin: 5% auto;
-  background-color: #f0a503;
-  padding: 30px 50px 60px 50px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 3px 3px #ff0000, -1em 0 0.4em #808000;
-}
-
-.contact-container  hr {
+.right-section {
+  flex: 1;
+  padding: 20px 0 20px 20px;
   border: none;
-  border-top: 3px double #f87575;
+}
+
+footer {
+  height: 90px;
+  background-color: #742a81;
+  text-align: center;
+  margin-top: 0px;
+  color: white;
+}
+
+footer > p {
+  margin-top: 0;
+}
+
+.skills-container > ul > li > div {
+  width: 30px;
+  height: 10px;
+  border: 1px solid red;
+  background-color: red;
+  display: flex;
   
 }
-.contact-container h1 {
-  padding: 0;
-  margin: 0;
-}
 
-.nail {
-  position: absolute;
-  left: 15px;
-  width: 30px;
-  height: 30px;
-  background-color:#f58f8f;
-  border-radius: 25px;
-  box-shadow: 6px 2px 6px, rgba(0, 0, 0, 0.3);
-}
 
-.hobbies-container {
-  position: relative;
-  height: 300px;
-  background: #e94e2f;
-}
