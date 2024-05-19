@@ -7,23 +7,45 @@
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <div class="contact-container">
-  <div class="nail"></div>
+  <header class="contact">
+    <div class="empty"></div>
     <h1>CONTACT</h1>
-    <hr />
-    <p>You can contact me with the following option</p>
-    <hr />
-    <address>
-    <a href="mailto:napoleon_mst@live.com">Email</a>
-    <br />
-    <hr />
-    <a href="tel:07438521698">Telephone</a>
-    <br /> 
-    <hr />
-  <div class="nail"></div>  
-  </div>
+    
+    <div class="contact-link">
+      <div>
+        <img src="../assets/icons/gmail.webp" alt="">
+        <a href="mailto:napoleon_mst@live.com">Email</a>
+      </div>
+      <div>
+        <img src="../assets/icons/telephone2.png" alt="">
+        <a href="tel:0123456789">Phone</a>
+      </div>
+    </div>
+  </header>
+  <main class="main-container">
 
-   
-  </address>
+    <form action="" method="post">
+      <fieldset>
+        <label for="first-name">First Name
+          <input type="text" id="first-name" name="first-name" placeholder="First Name" required />
+        </label>
+        <label for="last-name">Last name
+          <input type="text" id="last-name" name="last-name" placeholder="Last Name" required />
+        </label>
+        <label for="phone-number">Phone Number
+          <input type="tel" maxlength="11" id="phone-number" name="phone-number" placeholder="+telephone number" required />
+        </label>
+        <label for="email">Email
+          <input type="email" id="email" name="name" title="Enter a valid email address" required />
+        </label>
+      </fieldset>
+      <fieldset>
+        <textarea rows="5" cols="40" placeholder="Type your message here..." required></textarea>
+      </fildset>
+    </form>
+    <button id="submit">submit</button>
+
+  </main>
+
 </body>
 </html>
